@@ -4,9 +4,6 @@ import os
 import subprocess
 import re
 
-
-
-
 client = docker.from_env()
 container_base_name = "app"
 base_port = 5001
