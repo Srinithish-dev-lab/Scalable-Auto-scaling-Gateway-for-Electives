@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import os
 
 
+
 app = Flask(__name__)
 
 electives = ["Machine Learning", "Cyber Security", "Cloud Computing", "Data Science"]
